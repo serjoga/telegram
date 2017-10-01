@@ -1,5 +1,5 @@
 {
-    "name": "laravel-notification-channels/telegram",
+    "name": "serjoga/telegram",
     "description": "Telegram Notifications Driver",
     "keywords": [
       "telegram notification",
@@ -8,7 +8,7 @@
       "notification",
       "telegram notifications channel"
     ],
-    "homepage": "https://github.com/laravel-notification-channels/telegram",
+    "homepage": "https://github.com/serjoga/telegram",
     "license": "MIT",
     "authors": [
         {
