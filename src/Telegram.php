@@ -90,6 +90,7 @@ class Telegram
         try {
             return $this->httpClient()->post($endPointUrl, [
                 'form_params' => $params,
+                'verify' => false,
             ]);
         } catch (ClientException $exception) {
             throw CouldNotSendNotification::telegramRespondedWithAnError($exception);
